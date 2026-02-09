@@ -32,7 +32,7 @@ Created an Intune environment to monitor device compliance, enforce Windows conf
 - [Security Groups](../../blob/main/docs/SecurityGroups.md)
 - [Compliance Policy](../../blob/main/docs/CompliancePolicy.md)
 - [Configuration Policy](../../blob/main/docs/ConfigurationPolicy.md)
-- [Application Deployment](../../blob/main/docs/ApplicationDeployment.md)
+- [Application Deployment](docs/ApplicationDeployment.md)
 - [Proof Of Concept](../../blob/main/docs/ProofOfConcept.md)
 
 ## Skills Demonstrated
