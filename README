@@ -29,7 +29,7 @@ Created an Intune environment to monitor device compliance, enforce Windows conf
 4. **Managed Applications** - Deployed managed list of applications, enabling centralized app management.
 
 ## Documentation
-- [Security Groups](docs/SecurityGroups.md)
+- [Security Groups](https://github.com/Seth-Cole/azure-intune-lab/blob/main/docs/SecurityGroups.md)
 - [Compliance Policy](docs/CompliancePolicy.md)
 - [Configuration Policy](docs/ConfigurationPolicy.md)
 - [Application Deployment](docs/ApplicationDeployment.md)
