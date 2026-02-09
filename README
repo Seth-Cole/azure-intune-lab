@@ -3,7 +3,7 @@ Created an Intune environment to monitor device compliance, enforce Windows conf
 
 ## Project Overview
 - Intune environment was deployed using M365 developer license
-- Tenant created during deployment of Intune environment (Learninginc931)
+- Tenant created during deployment of Intune environment (LearningInc931)
 - VMWare workstation pro installed on local machine with a Windows 11 pro VM created
 - Microsoft word used for initial documentation
 - Total hours spent on this project

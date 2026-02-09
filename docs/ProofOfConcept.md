@@ -1,4 +1,4 @@
-# Proof Of Conecpt
+# Proof Of Concept
 
 ## Overview
 Screen shots providing detail of desired outcomes for project
