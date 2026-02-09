@@ -11,4 +11,4 @@ To mimic application deployment in an Intune environment, the application is sim
 
 
 ## Outcome
-![Application Deployment Policy](./images/ApplicationDeployment1.png)
+![Application Deployment Policy](/images/ApplicationDeployment1.png)

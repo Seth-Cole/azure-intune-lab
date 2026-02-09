@@ -14,6 +14,6 @@ Establishes baseline security posture for all Windows devices accessing network 
 - Secure Boot: Validates OS integrity, prevents boot-level tampering
 
 ## Outcome
-![Compliance Policy Creation](./images/CompliancePolicyCreation1.png)
-![](./images/CompliancePolicyCreation2.png)
-![](./images/CompliancePolicyCreation3.png)
+![Compliance Policy Creation](/images/CompliancePolicyCreation1.png)
+![](/images/CompliancePolicyCreation2.png)
+![](/images/CompliancePolicyCreation3.png)

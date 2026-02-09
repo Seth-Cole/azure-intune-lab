@@ -14,8 +14,8 @@ Ensures that features such as disk encryption or other, are configured automatic
 
 
 ## Outcome
-![Configuration Policy Creation](./images/ConfigurationComplianceCreation1.png)
-![](./images/ConfigurationComplianceCreation2.png)
-![](./images/ConfigurationComplianceCreation3.png)
-![](./images/ConfigurationComplianceCreation4.png)
-![](./images/ConfigurationComplianceCreation5.png)
+![Configuration Policy Creation](/images/ConfigurationComplianceCreation1.png)
+![](/images/ConfigurationComplianceCreation2.png)
+![](/images/ConfigurationComplianceCreation3.png)
+![](/images/ConfigurationComplianceCreation4.png)
+![](/images/ConfigurationComplianceCreation5.png)
