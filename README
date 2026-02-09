@@ -1,0 +1,41 @@
+# Azure-Intune-Lab
+Created an Intune environment to monitor device compliance, enforce Windows configuration baselines, and deploy a managed list of applications to a Windows 11 VM in VMWare.
+
+## Project Overview
+- Intune environment was deployed using M365 developer license
+- Tenant created during deployment of Intune environment (Learninginc931)
+- VMWare workstation pro installed on local machine with a Windows 11 pro VM created
+- Microsoft word used for initial documentation
+- Total hours spent on this project
+    - 2 hours for research and outline:
+        - Researching Intune documentation for knowledge gaps
+        - Deciding what project will include, logical flow of creating resources, method of documentation
+        - Defining desired Outcomes
+    - 3-4 hours for building VM, Configuring compliance Policies, Defining configuration baseline, and Testing Deployment
+    - 1-2 hours for transcribing documentation into GitHub repo
+
+## Design Decisions
+1. **Security Groups** - Created logical grouping for users and devices for targeted deployment of compliance and configuration policies.
+2. **Compliance Policy** - Created a compliance policy for Windows platforms to assess device security risks. If the following compliance standards aren't met, an automated email notification with remediation steps is sent:
+    - Password Requirements - Improved password security and hygiene
+    - Minimum OS version - Prevents the use of OS that is EOL and mitigates any vulnerabilities due to missing security patches
+    - BitLocker disk encryption - Protects misplaced or stolen devices by encrypting and securing data
+    - Secure Boot restrictions - Ensures that boot disk was not tampered with prior to device boot
+3. **Configuration Profile** - Created a configuration baseline for Windows platform using a settings catalog, which enforces configurations including:
+    - Disk Encryption with BitLocker
+    - Password: history, complexity, length, and age
+    - Account lockout after 3 failed attempts
+    - Windows updates - download and install Windows updates automatically and restart as needed outside of specified time range.
+4. **Managed Applications** - Deployed managed list of applications, enabling centralized app management.
+
+## Documentation
+- [Security Groups](./docs/SecurityGroups.md)
+- [Compliance Policy](./docs/CompliancePolicy.md)
+- [Configuration Policy](./docs/ConfigurationPolicy.md)
+- [Application Deployment](./docs/ApplicationDeployment.md)
+- [Proof Of Concept](./docs/ProofOfConcept.md)
+
+## Skills Demonstrated
+- Initial setup and configuration
+- Policy creation and deployment (compliance, configuration, and applications)
+- Device enrollment and validation
