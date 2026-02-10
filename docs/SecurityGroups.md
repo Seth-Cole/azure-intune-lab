@@ -9,4 +9,3 @@ Allows for logical grouping of devices and/or users to properly allocate, update
 ## Outcome
 - ![TestDevices Group](/images/TestDevicesGroup-Created.png)
 - ![TestUsers Group](/images/TestUsersGroup-Created.png)
-
